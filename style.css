@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Roboto&display=swap');
+
 body {
     background-color: #D0D7FE;
     width: 1440px;
@@ -22,11 +24,8 @@ body {
     left: 456px;
     top: 87px;
 
-    font-family: 'Kanit', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 30px;
-    line-height: 133,02%;
+    font: normal bold 30px /133.02% 'Kanit';
+    margin: 0;
 
     color: #09165F;
 }
