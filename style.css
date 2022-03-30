@@ -1,31 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
 
 body {
-    background-color: #D0D7FE;
+    position: relative;
+    background: #D0D7FE;
     width: 1440px;
     height: 1024px;
     margin: auto;
-    position: relative;
 }
 
-.whiteblock {
+.content {
     position: absolute;
     width: 1058px;
     height: 786px;
-    left: 191px;
+    background: #FFFFFF;
     top: 119px;
-    background: white;
+    left: 191px;
 }
 
 .header {
     position: absolute;
-    width: 145px;
-    height: 40px;
-    left: 456px;
     top: 87px;
-
-    font: normal bold 30px /133.02% 'Kanit';
+    left: 446.70px;
     margin: 0;
-
+    font:normal 700 30px /133.02% 'Kanit', sans-serif;
     color: #09165F;
+    letter-spacing: 0.035em;
 }
